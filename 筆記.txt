@@ -3,3 +3,6 @@ git status
 git add . 所有檔案進入已暫存 (. 代表目前位置)
 git rm --cache sample.txt 從已暫存回到已修改
 git restore sample.txt 回到上一動
+git commit -m "註解文字" 發布版本
+git reset --soft 版本代碼 回到指定版本
+git log 所有版本紀錄
