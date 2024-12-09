@@ -1,8 +1,13 @@
-git init 初建立
+cd *資料夾位址 => 可以直接拉資料夾
+git init => 初建立
 git status
-git add . 所有檔案進入已暫存 (. 代表目前位置)
-git rm --cache sample.txt 從已暫存回到已修改
-git restore sample.txt 回到上一動
-git commit -m "註解文字" 發布版本
-git reset --soft 版本代碼 回到指定版本
-git log 所有版本紀錄
+git add . => 所有檔案進入已暫存 (. 代表目前位置)
+git rm --cache sample.txt => 從已暫存回到已修改
+git restore sample.txt => 回到上一動
+git commit -m "*註解文字" => 發布版本
+git reset --soft 版本代碼 => 回到指定版本
+git log => 所有版本紀錄
+git clone *github網址 => 下載雲端的檔案
+git remote add *雲端名稱 *雲端網址 => 首次上傳到雲端 舉例:
+git remote add *origin https://github.com/111jonathan/gitProject.git
+git pull origin master => 更新版本(本機已經有檔案
