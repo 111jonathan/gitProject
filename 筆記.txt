@@ -1,0 +1,2 @@
+. 代表目前位置
+git rm --cache sample.txt 從已暫存回到已修改
