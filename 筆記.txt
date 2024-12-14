@@ -16,4 +16,4 @@ git branch => 顯示所有分支&目前分支
 git branch <branch> => 創建分支
 git checkout <branch> => 切換分支
 git checkout -b <branch> => 創建+切換
-git merge <branch> => 合併，branch→目前分支，branch消失
+git merge <branch> => 合併，branch→目前分支，branch消失，merge完記得刪除分支
